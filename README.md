@@ -1,6 +1,6 @@
 # Shared configurations for development tools
 
-This is a monorepository I'm puglishing for my own convenience,
+This is a monorepository I'm publishing for my own convenience,
 containing some shared configurations I use in my projects.
 
 Since it has public access I'm licensing it with the Unlicence.
