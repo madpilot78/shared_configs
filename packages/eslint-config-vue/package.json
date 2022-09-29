@@ -1,7 +1,7 @@
 {
   "name": "@madpilot78/eslint-config-vue",
   "author": "Guido Falsi <mad@madpilot.net>",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Custom shared vue3 ESLint configuration",
   "main": "eslint-config-vue.js",
   "license": "Unlicense",
