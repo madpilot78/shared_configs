@@ -16,12 +16,23 @@
     "packages/*"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
     "pretty": "prettier --write .",
     "publish-eslint-config-base": "npm publish --workspace @madpilot78/eslint-config-base",
     "publish-eslint-config-vue": "npm publish --workspace @madpilot78/eslint-config-vue",
     "publish-prettier-config": "npm publish --workspace @madpilot78/prettier-config"
   },
   "devDependencies": {
+    "@madpilot78/eslint-config-base": "1.0.0",
     "@madpilot78/prettier-config": "1.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@madpilot78/eslint-config-base"
+    ],
+    "globals": {
+      "module": "readonly"
+    }
   }
 }
