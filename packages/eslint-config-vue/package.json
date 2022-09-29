@@ -1,0 +1,24 @@
+{
+  "name": "@madpilot78/eslint-config-vue",
+  "author": "Guido Falsi <mad@madpilot.net>",
+  "version": "1.0.0",
+  "description": "Custom shared vue3 ESLint configuration",
+  "main": "eslint-config-vue.js",
+  "license": "Unlicense",
+  "keywords": [
+    "config",
+    "eslint",
+    "javascript",
+    "vue",
+    "vue3"
+  ],
+  "peerDependencies": {
+    "@madpilot78/eslint-config-base": "1.0.0",
+    "eslint": "8.11.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "vue-eslint-parser": "^9.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
