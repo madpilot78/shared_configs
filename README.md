@@ -18,4 +18,4 @@ Additional configuration for projects using [vue3](https://vuejs.org).
 
 ## @madpilot78/prettier-config
 
-Basic customizations for [prettier](https://prettier.io)
+Basic customizations for [prettier](https://prettier.io).
