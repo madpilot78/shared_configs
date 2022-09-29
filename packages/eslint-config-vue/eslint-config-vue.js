@@ -16,6 +16,18 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
         allowSeparatedGroups: true
       }
-    ]
+    ],
+    'vue/max-attributes-per-line': [
+      'warn',
+      {
+        singleline: {
+          max: 25
+        },
+        multiline: {
+          max: 1
+        }
+      }
+    ],
+    "vue/singleline-html-element-content-newline": "off"
   }
 }
