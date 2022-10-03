@@ -8,8 +8,17 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['promise'],
+  plugins: ['@getify/proper-arrows', 'promise'],
   rules: {
+    '@getify/proper-arrows/params': [
+      'error',
+      {
+        unused: 'trailing',
+        count: 2,
+        length: 0
+      }
+    ],
+    '@getify/proper-arrows/this': ['warn', 'never'],
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['warn'],
     'comma-dangle': ['error', 'never'],
