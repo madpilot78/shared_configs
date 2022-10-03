@@ -44,6 +44,7 @@ module.exports = {
     'no-useless-return': ['error'],
     'no-var': ['error'],
     'object-shorthand': ['error', 'consistent-as-needed'],
+    'prefer-arrow-callback': ['warn'],
     'prefer-const': ['error'],
     'prefer-regex-literals': [
       'error',
