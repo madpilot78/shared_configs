@@ -14,7 +14,7 @@ module.exports = {
       'error',
       {
         unused: 'trailing',
-        count: 2,
+        count: 3,
         length: 0
       }
     ],
