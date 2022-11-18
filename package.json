@@ -1,7 +1,7 @@
 {
   "name": "shared-configs",
   "author": "Guido Falsi <mad@madpilot.net>",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Custom shared ESLint and prettier configuration files",
   "license": "Unlicense",
   "keywords": [
