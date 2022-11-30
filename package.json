@@ -24,8 +24,8 @@
     "publish-prettier-config": "npm publish --workspace @madpilot78/prettier-config"
   },
   "devDependencies": {
-    "@madpilot78/eslint-config-base": "1.0.0",
-    "@madpilot78/prettier-config": "1.0.0"
+    "@madpilot78/eslint-config-base": "^1.0.0",
+    "@madpilot78/prettier-config": "^1.0.0"
   },
   "eslintConfig": {
     "extends": [
