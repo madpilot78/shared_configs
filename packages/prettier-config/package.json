@@ -1,15 +1,15 @@
 {
   "name": "@madpilot78/prettier-config",
-  "author": "Guido Falsi <mad@madpilot.net>",
   "version": "1.0.1",
   "description": "Custom shared prettier configuration",
-  "main": "prettier-config.json",
-  "license": "Unlicense",
   "keywords": [
     "config",
     "prettier",
     "javascript"
   ],
+  "license": "Unlicense",
+  "author": "Guido Falsi <mad@madpilot.net>",
+  "main": "prettier-config.json",
   "peerDependencies": {
     "prettier": "^2.6.0"
   },
