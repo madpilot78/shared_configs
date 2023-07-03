@@ -25,7 +25,9 @@
   },
   "devDependencies": {
     "@madpilot78/eslint-config-base": "^1.0.0",
-    "@madpilot78/prettier-config": "^1.0.0"
+    "@madpilot78/prettier-config": "^1.0.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-packagejson": "^2.4.3"
   },
   "eslintConfig": {
     "extends": [
