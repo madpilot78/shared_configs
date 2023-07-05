@@ -1,6 +1,6 @@
 {
   "name": "@madpilot78/eslint-config-base",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Custom shared base ESLint configuration",
   "keywords": [
     "config",
@@ -16,7 +16,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
-    "prettier": "^2.6.0"
+    "prettier": ">= 2.8.8"
   },
   "publishConfig": {
     "access": "public"

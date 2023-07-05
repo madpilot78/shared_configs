@@ -1,6 +1,6 @@
 {
   "name": "shared-configs",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Custom shared ESLint and prettier configuration files",
   "keywords": [
     "config",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@madpilot78/eslint-config-base": "^1.0.0",
     "@madpilot78/prettier-config": "^1.0.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.3"
   }
 }
