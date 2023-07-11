@@ -1,6 +1,6 @@
 {
   "name": "@madpilot78/eslint-config-base",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Custom shared base ESLint configuration",
   "keywords": [
     "config",
