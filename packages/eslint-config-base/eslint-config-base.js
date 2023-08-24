@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['@getify/proper-arrows', 'promise'],
+  plugins: ['@getify/proper-arrows', 'no-one-time-vars', 'promise'],
   rules: {
     '@getify/proper-arrows/params': [
       'error',
@@ -43,6 +43,12 @@ module.exports = {
     'no-eval': ['error'],
     'no-lone-blocks': ['error'],
     'no-nested-ternary': ['error'],
+    'no-one-time-vars/no-one-time-vars': [
+      'warn',
+      {
+        ignoreFunctionVariables: false
+      }
+    ],
     'no-return-assign': ['error', 'always'],
     'no-script-url': ['error'],
     'no-self-compare': ['error'],
