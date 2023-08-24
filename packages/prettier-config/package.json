@@ -1,6 +1,6 @@
 {
   "name": "@madpilot78/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom shared prettier configuration",
   "keywords": [
     "config",
