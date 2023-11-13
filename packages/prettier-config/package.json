@@ -11,7 +11,7 @@
   "author": "Guido Falsi <mad@madpilot.net>",
   "main": "prettier-config.json",
   "peerDependencies": {
-    "prettier": "^3.0.0"
+    "prettier": "^3.1.0"
   },
   "publishConfig": {
     "access": "public"
