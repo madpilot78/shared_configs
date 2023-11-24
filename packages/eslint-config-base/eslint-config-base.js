@@ -42,7 +42,6 @@ module.exports = {
     ],
     'no-eval': ['error'],
     'no-lone-blocks': ['error'],
-    'no-nested-ternary': ['error'],
     'no-return-assign': ['error', 'always'],
     'no-script-url': ['error'],
     'no-self-compare': ['error'],
