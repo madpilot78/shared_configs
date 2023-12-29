@@ -42,7 +42,7 @@ module.exports = {
     ],
     'no-eval': ['error'],
     'no-lone-blocks': ['error'],
-    'no-return-assign': ['error', 'always'],
+    'no-return-assign': ['error'],
     'no-script-url': ['error'],
     'no-self-compare': ['error'],
     'no-unmodified-loop-condition': ['error'],
