@@ -1,6 +1,6 @@
 {
   "name": "@madpilot78/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom shared prettier configuration",
   "keywords": [
     "config",
@@ -11,7 +11,7 @@
   "author": "Guido Falsi <mad@madpilot.net>",
   "main": "prettier-config.json",
   "peerDependencies": {
-    "prettier": "^3.1.0"
+    "prettier": "^3.3.3"
   },
   "publishConfig": {
     "access": "public"
