@@ -1,17 +1,18 @@
-import js from '@eslint/js'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import js from '@eslint/js'
 import pluginPromise from 'eslint-plugin-promise'
+import properArrow from '@getify/eslint-plugin-proper-arrows'
 
 export default [
   js.configs.recommended,
   eslintPluginPrettierRecommended,
   pluginPromise.configs['flat/recommended'],
   {
-    parserOptions: {
+    languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module'
     },
-    plugins: ['@getify/proper-arrows', 'promise'],
+    plugins: { '@getify/proper-arrows': properArrow },
     rules: {
       '@getify/proper-arrows/params': [
         'error',

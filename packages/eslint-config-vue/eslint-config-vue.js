@@ -1,14 +1,16 @@
+import VueEslintParser from 'vue-eslint-parser'
 import pluginVue from 'eslint-plugin-vue'
 
 export default [
   ...pluginVue.configs['flat/recommended'],
   {
-    parser: 'vue-eslint-parser',
-    parserOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module'
+    languageOptions: {
+      parser: VueEslintParser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module'
+      }
     },
-    plugins: ['vue'],
     rules: {
       'sort-imports': [
         'warn',

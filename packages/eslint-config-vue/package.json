@@ -1,6 +1,6 @@
 {
   "name": "@madpilot78/eslint-config-vue",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Custom shared vue3 ESLint configuration",
   "keywords": [
     "config",
@@ -11,6 +11,7 @@
   ],
   "license": "Unlicense",
   "author": "Guido Falsi <mad@madpilot.net>",
+  "type": "module",
   "main": "eslint-config-vue.js",
   "peerDependencies": {
     "@madpilot78/eslint-config-base": "^1.4.0",
