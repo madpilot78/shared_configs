@@ -1,7 +1,6 @@
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import js from '@eslint/js'
 import pluginPromise from 'eslint-plugin-promise'
-import properArrow from '@getify/eslint-plugin-proper-arrows'
 
 export default [
   js.configs.recommended,
@@ -12,17 +11,7 @@ export default [
       ecmaVersion: 'latest',
       sourceType: 'module'
     },
-    plugins: { '@getify/proper-arrows': properArrow },
     rules: {
-      '@getify/proper-arrows/params': [
-        'error',
-        {
-          unused: 'trailing',
-          count: 3,
-          length: 0
-        }
-      ],
-      '@getify/proper-arrows/this': ['warn', 'never'],
       'arrow-body-style': ['error', 'as-needed'],
       'arrow-parens': ['warn'],
       'comma-dangle': ['error', 'never'],
