@@ -1,4 +1,4 @@
-import config from '@madpilot78/prettier-config' assert { type: 'json' }
+import config from '@madpilot78/prettier-config' with { type: 'json' }
 
 config.plugins = ['prettier-plugin-packagejson']
 
