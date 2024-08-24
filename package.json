@@ -1,6 +1,6 @@
 {
   "name": "shared-configs",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Custom shared ESLint and prettier configuration files",
   "keywords": [
     "config",
@@ -28,7 +28,7 @@
     "@babel/eslint-parser": "^7.25.1",
     "@babel/plugin-syntax-import-assertions": "^7.24.7",
     "@madpilot78/eslint-config-base": "^1.4.1",
-    "@madpilot78/prettier-config": "^1.0.4",
+    "@madpilot78/prettier-config": "^1.0.5",
     "prettier": "^3.3.3",
     "prettier-plugin-packagejson": "^2.5.2"
   }
