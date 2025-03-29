@@ -1,6 +1,6 @@
 {
   "name": "shared-configs",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Custom shared ESLint and prettier configuration files",
   "keywords": [
     "config",
