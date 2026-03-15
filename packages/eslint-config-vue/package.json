@@ -15,7 +15,7 @@
   "main": "eslint-config-vue.js",
   "peerDependencies": {
     "@madpilot78/eslint-config-base": "^1.4.0",
-    "eslint": "^9.9.1",
+    "eslint": "^9.0.0 || ^10.0.0",
     "eslint-plugin-vue": "^10.0.0",
     "vue-eslint-parser": "^10.0.0"
   },
