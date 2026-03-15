@@ -1,6 +1,6 @@
 {
   "bracketSpacing": true,
-  "experimentalTernaries": true,
+  "experimentalTernaries": false,
   "semi": false,
   "singleQuote": true,
   "trailingComma": "none"
