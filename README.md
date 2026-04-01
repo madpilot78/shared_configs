@@ -1,5 +1,7 @@
 # Shared configurations for development tools
 
+**MIgrated to https://codeberg.org/madpilot78/shared_configs**
+
 This is a monorepository I'm publishing for my own convenience,
 containing some shared configurations I use in my projects.
 
